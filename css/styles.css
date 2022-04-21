@@ -1,0 +1,205 @@
+#title {
+  background-color: #E3CAA5;
+}
+
+H1 {font-family: 'Roboto Serif', sans-serif;
+font-size: 4rem;
+line-height: 1;
+color: black
+}
+H2 {font-family: 'Dancing Script', cursive;
+}
+
+body {font-family: 'Merriweather', serif;
+}
+
+.container-fluid{
+  padding: 3% 5% 4.5% 5%;
+}
+
+/*Nav Section*/
+
+.navbar-brand{
+  font-family: 'Roboto Serif', sans-serif;
+  font-size: 2rem;
+}
+
+.navbar{
+  padding-bottom: 2rem;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.1rem;
+}
+/*Nav Section*/
+
+
+/* title section*/
+
+.PlayGame-button{
+  margin: 5% 3% 5% 0;
+}
+
+.avatar-image {
+  transform: rotate(10deg);
+  margin: 1% 0 2% 0;
+}
+/* title section*/
+
+
+/* feature section */
+.EGG {
+  padding: 7% 15%;
+
+}
+
+.feature {
+  text-align: center;
+  padding: 5%;
+}
+
+.fa-costumize {
+  color: #E3CAA5;
+  font-size: 3rem;
+}
+
+.fa-costumize:hover {
+  color: brown;
+}
+/* feature section */
+
+/* testimonial */
+
+#testimonials {
+text-align: center;
+background-color: #E3CAA5;
+color: White;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+
+}
+#press {
+  background-color: #E3CAA5;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 10px 10px 50px;
+}
+
+/*Pricing*/
+.container1 {
+text-align: center;
+padding: 5% 0;
+}
+
+.containercard {
+  text-align: center;
+  padding: 0% 5% 5%;
+}
+
+.card {
+  margin-bottom: 3%
+}
+.button {
+  background-color: black
+}
+
+/*MEDIA QUERY TITLE*/
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .avatar-image{
+    transform: rotate(0deg);
+    height: 80%;
+    width: 80%;
+      }
+    }
+
+
+/*Media Query Testimonials*/
+@media (max-width:1028px){
+  #testimonials{
+    text-align: center;
+  }
+  .testimonials-image{
+    height: 40%;
+    width: 20%;
+      }
+      .em{
+        font-size: 14px;
+      }
+    }
+
+/*MEDIA QUERY*/
+@media (max-width:1028px){
+  #press{
+    text-align: center;
+  }
+  .press-logo{
+    height: 50%;
+    width: 50%;
+      }
+    }
+
+  /*media query pricing*/
+    @media (max-width:1028px){
+      #pricing{
+        text-align: center;
+      }
+      .containercard{
+        font-size: 25px;
+        }
+    }
+
+
+#features{
+  padding: 2% 5%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#cta {
+  background-color: #E3CAA5;
+  padding: 5% 10% 5% 10%;
+  text-align: center;
+}
+
+.container2 {
+  padding: 2%;
+}
+
+.title2 {
+  font-size: 3rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 3%
+}
+
+.foot {
+padding: 5% 0 0.5% 0%;
+margin-left: 6px
+}
+
+.footer-icon{
+  margin-right: 8px;
+}
